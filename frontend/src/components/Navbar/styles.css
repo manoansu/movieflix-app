@@ -1,0 +1,52 @@
+.main-nav{
+    padding: 5px;
+    height: 68px;
+    background: #FFC700;
+}
+
+.nav-logo-text{
+    text-decoration: none;
+    color: unset;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.nav-logo-text h4{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-login-logout{
+    width: 100px;
+    height: 30px;
+}
+
+.nav-login-logout a{
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 4px 32px 4px 32px ;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.login-sair{
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 4px 32px 4px 32px ;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.nav-login-logout a:hover{
+    color: #000000;
+}
+
+@media(min-width: 1550px){
+    .main-nav{
+        width: 100%;
+    }
+}

@@ -1,0 +1,52 @@
+.btn-container{
+    display: flex;
+    width: 250px;
+    height:50px;
+    background: #FFC700;
+    margin-top: 74.06px;
+}
+
+.btn-container button{
+    width: calc(100% - 50px);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.btn h6{
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 0px 16px 26px;
+}
+
+.btn-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 384px;
+    height:65.63px;
+    border-radius:0px 10px 10px 0px ;
+    color: #000;
+}
+
+@media (min-width: 576px){
+    .btn-container{
+        width: 380px;
+        height:65.63px;
+    }
+
+    .btn-icon-container{
+        width: 70px;
+        height:70px;
+    }
+
+    .btn-container button{
+        width: calc(100% - 70px);
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .btn h6{
+        font-size: 20px;
+        padding: 18.06px 50.36px 16.63px 85px;
+    }
+}

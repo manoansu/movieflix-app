@@ -1,0 +1,108 @@
+.btn-container-save{
+    width: 272px;
+    margin: 10px 10px 14px 0;
+}
+
+.btn-container-save button{
+    width: calc(100% - 50px);
+}
+
+.btn-save{ 
+    height: 45px;   
+    background: #FFC700;
+    padding: 12px 10px 16px 10px;
+    margin: 0 50px 14px 0px;
+}
+
+.btn-save h6{
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1px 18px 16px 20px;
+}
+
+.btn-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 384px;
+    height:65.63px;
+   
+}
+
+@media (min-width: 576px){
+
+    .btn-container-save{
+        width: 510px;
+    }
+    
+    .btn-save h6{
+        font-size: 16px;
+        padding: 1px 50px 16px 20px;
+    }
+    
+}
+
+@media (min-width: 768px){
+
+    .btn-container-save{
+        width: 678px;
+    }
+    
+    .btn-save h6{
+        font-size: 18px;
+        padding: 1px 50px 16px 20px;
+    }
+    
+}
+
+@media (min-width: 992px){
+
+    .btn-container-save{
+        width: 912px;
+    }
+    
+    .btn-save h6{
+        font-size: 16px;
+        padding: 1px 50px 16px 20px;
+    }
+    
+}
+
+@media (min-width: 1200px){
+
+    .btn-container-save{
+        width: 1138px;
+    }
+    
+    .btn-save h6{
+        font-size: 18px;
+        padding: 1px 50px 16px 20px;
+    }
+    
+}
+
+@media (min-width: 1400px){
+
+    .btn-container-save{
+        width: 1281px;
+    }
+
+    .btn-save{ 
+        padding: 7px 10px 16px 10px;
+    }
+    
+    .btn-save h6{
+        font-size: 24px;
+        padding: 0 50px 20px 20px;
+    }
+    
+}
+
+@media (min-width: 1550px){
+    .btn-container-save{
+        width: 1802px;
+        margin: 10px 10px 14px 0;
+    }
+}
