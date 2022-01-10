@@ -16,11 +16,11 @@ export const saveAuthData = (obj: LoginResponse) =>{
 
 export const getAuthData = () => {
     const str = localStorage.getItem(tokenKey) ?? "{}";
-    console.log('login getAuthData === ' + str)
+    //console.log('login getAuthData === ' + str)
     return JSON.parse(str) as LoginResponse;
 }
 
 export const removeAuthData = () => {
-    console.log('Token autenticated Key ********** ' + tokenKey)
+    //console.log('Token autenticated Key ********** ' + tokenKey)
     localStorage.removeItem(tokenKey);
 }

@@ -1,7 +1,11 @@
 package pt.amane.movieflix.dtos;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
+
+import javax.validation.constraints.NotEmpty;
 
 import pt.amane.movieflix.entities.Genre;
 import pt.amane.movieflix.entities.Movie;
@@ -18,6 +22,9 @@ public class MovieDTO implements Serializable {
 	private String synopsis;
 
 	private GenreDTO genre;
+
+	@NotEmpty(message = "unreviewed movie is not allowed!")
+	private List<ReviewDTO> reviews = new ArrayList<>();
 
 	public MovieDTO() {
 	}
@@ -44,6 +51,13 @@ public class MovieDTO implements Serializable {
 	public MovieDTO(Movie movie, Genre dto) {
 		this(movie);
 		genre = new GenreDTO(dto);
+		
+	}
+	
+	public MovieDTO(Movie movie, Genre dto, List<ReviewDTO> reviews) {
+		this(movie);
+		genre = new GenreDTO(dto);
+		reviews.forEach(obj -> this.reviews.add((obj)));
 	}
 
 	public Long getId() {
@@ -100,6 +114,10 @@ public class MovieDTO implements Serializable {
 
 	public void setGenre(GenreDTO genre) {
 		this.genre = genre;
+	}
+
+	public List<ReviewDTO> getReviews() {
+		return reviews;
 	}
 
 	@Override

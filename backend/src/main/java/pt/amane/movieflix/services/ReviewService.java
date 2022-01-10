@@ -24,12 +24,17 @@ public class ReviewService {
 		
 		UserDTO userDto = userService.getProfile();
 		dto.setUser(userDto);
-		Review review = new Review();	
+		Review review = copyReview(dto);	
+		review = repository.save(review); 
+		return new ReviewDTO(review, review.getUser());
+	}
+
+	private Review copyReview(ReviewDTO dto) {
+		Review review = new Review();
 		review.setText(dto.getText());
 		review.setMovieId(dto.getMovieId());
 		review.setUser(new User(dto.getUser().getId(), dto.getUser().getName(), dto.getUser().getEmail(), null));
-		review = repository.save(review); 
-		return new ReviewDTO(review, review.getUser());
+		return review;
 	}
 	
 	

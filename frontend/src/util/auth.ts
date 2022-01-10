@@ -14,7 +14,7 @@ export type TokenData = {
 
  export const getTokenData = () : TokenData | undefined => {
     try{
-        console.log('getAuthData access_token == ' + getAuthData().access_token);
+        //console.log('getAuthData access_token == ' + getAuthData().access_token);
         return jwtDecode(getAuthData().access_token);
     }
     catch(error) {
@@ -25,7 +25,7 @@ export type TokenData = {
   // Funçao que verifica se user esta autenicado..
   export const isAuthenticated = () => {
       const tokenData = getTokenData();
-      console.log('tokenData == ' + tokenData?.user_name);
+      //console.log('Authenticated tokenData == ' + tokenData?.user_name);
       return (tokenData && tokenData.exp * 1000 > Date.now()) ? true : false;
   }
 
@@ -41,15 +41,4 @@ export type TokenData = {
         return roles.some(role => tokeData.authorities.includes(role));
     }
     return false;
-  }
-
-  export const hasEqualId = (bdId: number, urlId: number): boolean =>{
-
-    if (bdId === urlId) {
-        console.log(' Match === bdId == ' + bdId + ' UrlId:  ' + urlId);
-        return true;
-    }else{
-        console.log('Not Match &&&& === bdId == ' + bdId + ' UrlId: >>>>> ' + urlId);
-        return false;
-    }
   }

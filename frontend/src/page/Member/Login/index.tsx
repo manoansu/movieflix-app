@@ -47,7 +47,7 @@ const Login = () => {
         })
         .catch(error =>{
           setHasError(true);
-          console.log("ERROR", error);
+          //console.log("ERROR", error);
         });
         
     };

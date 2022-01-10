@@ -33,8 +33,10 @@ public class MovieService {
 	public MovieDTO findById(Long id) {
 		Optional<Movie> movieId = repository.findById(id);
 		Movie movie = movieId.orElseThrow(() -> new ObjectNotFoundException("Object not found! id: " + id + ", type: " + Movie.class.getName()));
-		return new MovieDTO(movie, movie.getGenre());
+		List<Review> reviews = movie.getReviews();
+		return new MovieDTO(movie, movie.getGenre(), reviews.stream().map(x -> new ReviewDTO(x,x.getUser())).collect(Collectors.toList()));
 	}
+	
 	
 	@Transactional(readOnly = true)
 	public List<ReviewDTO> findReviewsByMovieId(Long id) {

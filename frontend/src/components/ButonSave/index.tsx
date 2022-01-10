@@ -2,15 +2,15 @@ import './styles.css'
 
 
 type Props ={
-    text: string;
+    texte: string;
 }
 
-const ButtonSave = ({ text } : Props) => {
+const ButtonSave = ({ texte } : Props) => {
 
     return (
         <div  className="btn-container-save">
             <button className="btn-save">
-                <h6>{text}</h6>
+                <h6>{texte}</h6>
             </button>            
         </div>
         
