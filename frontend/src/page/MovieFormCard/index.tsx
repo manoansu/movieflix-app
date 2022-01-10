@@ -14,8 +14,7 @@ export type ReviewFormData = {
 
 type Props ={
     movie?: Movie;
-    onList: Function;        
-    
+    onList: Function;            
 }
 
 const MovieFormCard = ( {movie, onList} : Props) =>{
@@ -36,7 +35,6 @@ const MovieFormCard = ( {movie, onList} : Props) =>{
         requestBackend(config)
         .then(() => {
             toast.info('Avaliação cadastrado com sucesso!');
-            console.log('dados Registrado ==> ' );
         }).catch(() =>{
             toast.error('Erro ao cadastrar avaliação.');
         })
@@ -60,7 +58,6 @@ const MovieFormCard = ( {movie, onList} : Props) =>{
         requestBackend(config)
             .then(response => {
                 onList();
-                //setMove(response.data);
             })
     };
 
