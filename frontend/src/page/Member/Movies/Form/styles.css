@@ -1,3 +1,91 @@
+.movie-detalhe-container{
+    background: #525252;
+    padding: 20px 10px 20px 10px;
+}
+
+.movie-select-container h1{
+    width: 285px;
+    height: 60px;
+    background: #6C6C6C;
+    margin: 0px 10px 20px 0px;
+    padding: 20px 20px 20px 1px;
+}
+
+.movie-content-container{
+    width: 285px;
+    height: 322px;
+    background: #6C6C6C;
+}
+
+.movie-image-container img{
+    width: 285px;
+    height: 164.09px;
+    margin-top: 20px;
+}
+
+.movie-title-container h2{
+    width: 264.44px;
+    height: 27px;
+    font-size: 20px;
+    margin: 10.91px 20px 0 15.56px;
+}
+
+.movie-year-container h4{
+    width: 264.44px;
+    height: 27px;
+    font-size: 16px;
+    margin: 0 20px 0 15.56px;
+    color: #FFC700;
+    letter-spacing: -0.015em;
+}
+
+.movie-legenda-container h6{
+    width: 400px;
+    margin: 0 20px 0 15.56px;
+    font-size: 14px;
+    letter-spacing: -0.015em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .product-crud-form-card{
     padding: 20px;
 }
