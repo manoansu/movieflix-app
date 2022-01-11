@@ -1,6 +1,6 @@
 .movie-container{
     width: 100%;
-    height: 1542px;
+    height: auto;
     flex-direction: column;
     background: #525252;
 }

@@ -1,0 +1,308 @@
+.movie-separate-container{
+    margin-bottom: 10px;
+}
+
+.movie-detalhe-container{
+    background: #525252;
+    padding: 20px 10px 20px 10px;
+}
+
+.movie-select-container h1{
+    width: 285px;
+    height: 60px;
+    background: #6C6C6C;
+    margin: 0px 10px 10px 0px;
+    padding: 20px 20px 20px 1px;
+}
+
+.movie-content-container{
+    width: 285px;
+    height: 322px;
+    margin-top: 10px;
+    background: #6C6C6C;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    
+}
+
+.movie-image-container img{
+    width: 285px;
+    height: 164.09px;
+    margin-top: 20px;
+}
+
+.movie-title-container h2{
+    width: 264.44px;
+    height: 27px;
+    font-size: 20px;
+    margin: 10.91px 20px 0 15.56px;
+}
+
+.movie-year-container h4{
+    width: 264.44px;
+    height: 27px;
+    font-size: 16px;
+    margin: 0 20px 0 15.56px;
+    color: #FFC700;
+    letter-spacing: -0.015em;
+}
+
+.movie-legenda-container h6{
+    width: 400px;
+    margin: 0 20px 0 15.56px;
+    font-size: 14px;
+    letter-spacing: -0.015em;
+}
+
+
+@media(min-width: 576px){
+    
+   
+    .movie-content-container{
+        width: 258px;
+        margin-top: 10px;
+        
+    }
+
+    .movie-image-container img{
+        width: 258px;
+        height: 164.09px;
+        margin-top: 20px;
+    }
+
+    .movie-title-container h2{
+        width: 227.42px;
+        height: 27px;
+    }
+
+    .movie-year-container h4{
+        width: 227.42px;
+        height: 22px;
+    }
+
+    .movie-legenda-container h6{
+        width: 227.42px;
+        height: 38px;
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 768px){
+    
+  
+    .movie-content-container{
+        width: 324px;
+        height: 364px;
+        margin: 15px 50px 20px 30px;
+    }
+
+    .movie-image-container img{
+        width: 324px;
+        height: 203.63px;
+        margin-top: 20px;
+    }
+
+    .movie-title-container h2{
+        width: 285.6px;
+    }
+
+    .movie-year-container h4{
+        width: 285.6px;
+        height: 22px;
+    }
+
+    .movie-legenda-container h6{
+        width: 285.6px;
+        height: 20px;
+        font-size: 16px;
+    }
+
+    .row{
+        padding: 0 45px 10px 1px;
+    }
+}
+
+@media(min-width: 992px){
+    
+  
+    .movie-content-container{
+        width: 436px;
+        height: 400px;
+        margin: 15px 50px 20px 30px;
+    }
+
+    .movie-image-container img{
+        width: 436px;
+        height: 274x;
+        margin-top: 20px;
+    }
+
+    .movie-title-container h2{
+        width: 285.6px;
+        margin-top: 21px;
+    }
+
+    .movie-year-container h4{
+        width: 285.6px;
+    }
+
+    .movie-legenda-container h6{
+        width: 285.6px;
+        height: 20px;
+        font-size: 16px;
+    }   
+
+    .row{
+        padding: 0 30px 10px 1px
+    }
+}
+
+@media(min-width: 1200px){
+    
+  
+    .movie-content-container{
+        width: 258px;
+        height: 365px;
+        margin: 15px 50px 20px 30px;
+    }
+
+    .movie-image-container img{
+        width: 258px;
+        height: 274x;
+        margin-top: 20px;
+    }
+
+    .movie-title-container h2{
+        width: 227px;
+        margin: 10px 17.20px 0 13.38px;
+    }
+
+    .movie-year-container h4{
+        width: 285.6px;
+        height: 22px;
+        margin: 1px 17.20px 1px 13.38px;
+    }
+
+    .movie-legenda-container h6{
+        width: 227.42px;
+        height: 20px;
+        font-size: 16px;
+    }   
+
+    .row{
+        padding: 0 65px 10px 1px;
+    }
+}
+
+@media(min-width: 1400px){
+    
+  
+    .movie-content-container{
+        width: 258px;
+        height: 365px;
+        margin: 15px 160px 20px 161px;
+    }
+
+    .movie-image-container img{
+        width: 258px;
+        height: 274x;
+        margin-top: 20px;
+    }
+
+    .movie-title-container h2{
+        width: 227px;
+        margin: 10px 17.20px 0 13.38px;
+    }
+
+    .movie-year-container h4{
+        width: 285.6px;
+        height: 22px;
+        margin: 1px 17.20px 1px 13.38px;
+    }
+
+    .movie-legenda-container h6{
+        width: 227.42px;
+        height: 20px;
+        font-size: 16px;
+    }   
+
+    .row{
+        padding: 0 175px 10px 1px;
+    }
+}
+
+@media(min-width: 1650px){
+    
+  
+    .movie-content-container{
+        width: 258px;
+        height: 365px;
+        margin: 15px 180px 20px 181px;
+    }
+
+    .movie-image-container img{
+        width: 258px;
+        height: 274x;
+        margin-top: 20px;
+    }
+
+    .movie-title-container h2{
+        width: 227px;
+        margin: 10px 17.20px 0 13.38px;
+    }
+
+    .movie-year-container h4{
+        width: 285.6px;
+        height: 22px;
+        margin: 1px 17.20px 1px 13.38px;
+    }
+
+    .movie-legenda-container h6{
+        width: 227.42px;
+        height: 20px;
+        font-size: 16px;
+    }   
+
+    .row{
+        padding: 0 165px 10px 1px;
+    }
+}
+
+@media(min-width: 1750px){
+    
+  
+    .movie-content-container{
+        width: 258px;
+        height: 365px;
+        margin: 15px 260px 20px 261px;
+    }
+
+    .movie-image-container img{
+        width: 258px;
+        height: 274x;
+        margin-top: 20px;
+    }
+
+    .movie-title-container h2{
+        width: 227px;
+        margin: 10px 17.20px 0 13.38px;
+    }
+
+    .movie-year-container h4{
+        width: 285.6px;
+        height: 22px;
+        margin: 1px 17.20px 1px 13.38px;
+    }
+
+    .movie-legenda-container h6{
+        width: 227.42px;
+        height: 20px;
+        font-size: 16px;
+    }   
+
+    .row{
+        padding: 0 430px 10px 1px;
+    }
+}
+
+
