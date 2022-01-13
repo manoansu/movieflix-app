@@ -34,7 +34,7 @@
 @media (min-width: 576px){
 
     .btn-container-save{
-        width: 510px;
+        width: 548px;
     }
     
     .btn-save h6{
@@ -47,7 +47,8 @@
 @media (min-width: 768px){
 
     .btn-container-save{
-        width: 678px;
+        width: 658px;
+        margin: 1px 10px 18px 25px;
     }
     
     .btn-save h6{
@@ -60,11 +61,13 @@
 @media (min-width: 992px){
 
     .btn-container-save{
-        width: 912px;
+        width: 400px;
+        height:200px;
+        margin: 1px 256px 34px 256px;
     }
     
     .btn-save h6{
-        font-size: 16px;
+        font-size: 18px;
         padding: 1px 50px 16px 20px;
     }
     
@@ -73,11 +76,13 @@
 @media (min-width: 1200px){
 
     .btn-container-save{
-        width: 1138px;
+        width: 400px;
+        height:50px;
+        margin: 1px 360px 38px 360px;
     }
     
     .btn-save h6{
-        font-size: 18px;
+        font-size: 20px;
         padding: 1px 50px 16px 20px;
     }
     

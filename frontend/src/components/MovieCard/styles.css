@@ -36,6 +36,8 @@
     height: 27px;
     font-size: 20px;
     margin: 10.91px 20px 0 15.56px;
+    color: white;
+    text-decoration: none !important;
 }
 
 .movie-year-container h4{
@@ -52,6 +54,8 @@
     margin: 0 20px 0 15.56px;
     font-size: 14px;
     letter-spacing: -0.015em;
+    color: white;
+    text-decoration: none !important;
 }
 
 
@@ -73,6 +77,8 @@
     .movie-title-container h2{
         width: 227.42px;
         height: 27px;
+        color: white;
+        text-decoration: none !important;
     }
 
     .movie-year-container h4{
@@ -84,6 +90,8 @@
         width: 227.42px;
         height: 38px;
         font-size: 16px;
+        color: white;
+        text-decoration: none !important;
     }
 }
 
@@ -104,6 +112,8 @@
 
     .movie-title-container h2{
         width: 285.6px;
+        color: white;
+        text-decoration: none !important;
     }
 
     .movie-year-container h4{
@@ -115,6 +125,8 @@
         width: 285.6px;
         height: 20px;
         font-size: 16px;
+        color: white;
+        text-decoration: none !important;
     }
 
     .row{
@@ -140,6 +152,8 @@
     .movie-title-container h2{
         width: 285.6px;
         margin-top: 21px;
+        color: white;
+        text-decoration: none !important;
     }
 
     .movie-year-container h4{
@@ -150,6 +164,8 @@
         width: 285.6px;
         height: 20px;
         font-size: 16px;
+        color: white;
+        text-decoration: none !important;
     }   
 
     .row{
@@ -175,6 +191,8 @@
     .movie-title-container h2{
         width: 227px;
         margin: 10px 17.20px 0 13.38px;
+        color: white;
+        text-decoration: none !important;
     }
 
     .movie-year-container h4{
@@ -187,6 +205,8 @@
         width: 227.42px;
         height: 20px;
         font-size: 16px;
+        color: white;
+        text-decoration: none !important;
     }   
 
     .row{
@@ -212,6 +232,8 @@
     .movie-title-container h2{
         width: 227px;
         margin: 10px 17.20px 0 13.38px;
+        color: white;
+        text-decoration: none !important;
     }
 
     .movie-year-container h4{
@@ -224,6 +246,8 @@
         width: 227.42px;
         height: 20px;
         font-size: 16px;
+        color: white;
+        text-decoration: none !important;
     }   
 
     .row{
@@ -249,6 +273,8 @@
     .movie-title-container h2{
         width: 227px;
         margin: 10px 17.20px 0 13.38px;
+        color: white;
+        text-decoration: none !important;
     }
 
     .movie-year-container h4{
@@ -261,6 +287,8 @@
         width: 227.42px;
         height: 20px;
         font-size: 16px;
+        color: white;
+        text-decoration: none !important;
     }   
 
     .row{
@@ -274,7 +302,7 @@
     .movie-content-container{
         width: 258px;
         height: 365px;
-        margin: 15px 260px 20px 261px;
+        margin: 15px 310px 20px 311px;
     }
 
     .movie-image-container img{
@@ -286,6 +314,8 @@
     .movie-title-container h2{
         width: 227px;
         margin: 10px 17.20px 0 13.38px;
+        color: white;
+        text-decoration: none !important;
     }
 
     .movie-year-container h4{
@@ -298,6 +328,8 @@
         width: 227.42px;
         height: 20px;
         font-size: 16px;
+        color: white;
+        text-decoration: none !important;
     }   
 
     .row{

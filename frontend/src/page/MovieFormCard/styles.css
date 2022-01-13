@@ -2,7 +2,7 @@
     padding: 10px;
     font-size: 24px;
     background: #525252;
-    height: 900px
+    height: auto;
 }
 
 .movie-details-card{
@@ -15,15 +15,15 @@
     margin: 17px 4px 18px 10px;
 }
 
-.review-container{
-    Height:51px;
+.review-form-container{
+    Height:auto;
     text-align: center;
     border: 1px solid #E1E1E1;
     box-sizing: border-box;
     border-radius: 4px;
 }
 
-.review-container h2{
+.review-form-container h2{
    font-size: 13px;
    text-align: justify;
    color: #9E9E9E;
@@ -31,7 +31,7 @@
    
 }
 
-.input-container{
+.input-form-container{
     Width:255px;
     Height:157px;
     background: #6C6C6C;
@@ -41,9 +41,9 @@
     margin: 17px 4px 18px 10px;
 }
 
-.row-container{
-    Width:255px;
-    Height:590px;
+.row-form-container{
+    Width:536px;
+    Height:auto;
     background: #6C6C6C;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
@@ -51,8 +51,8 @@
     margin: 1px 10px 18px 10px;
 }
 
-.input-container input{
-    Width:220px;
+.input-form-container input{
+    Width:496px;
     Height:50px;
     font-size: 15px;
     margin: 0 20px 1px 0px;
@@ -73,6 +73,7 @@
     Height:15.34px;
     margin: 13px 1px 5px 1px;
 }
+
 .review-name h1{
     display: flex;
     color: #fff;
@@ -136,6 +137,48 @@
     margin: 0px 0px 20px 0px;
 }
 
+.movie-formcard-content-container{
+    margin: 30px 40px 40px 25px;
+    background: #6C6C6C;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    
+}
+
+
+.movie-formcard-title-container h2{
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.movie-formcard-year-container h4{
+    font-size: 24px;
+    margin: 40px;
+    color: #FFC700;
+}
+
+.movie-formcard-legenda-container h6{
+    color: #FFFFFF;
+    letter-spacing: -0.015em;
+    text-decoration: none !important;
+}
+
+.movie-formcard-description-container{
+    height: auto;
+    border-radius: 10px ;
+    border: 1px solid #9E9E9E;
+}
+
+.movie-formcard-description{
+    font-size: 22.6px;
+    color: #9E9E9E;
+    letter-spacing: -0.015em;
+    text-align: justify;
+    margin: 13px 16px 13px 15px;
+}
+
+
 @media(min-width: 576px){
    
     .movie-title h1{
@@ -147,16 +190,13 @@
         font-size: 16px;
     }
 
-    .input-container{
-        Width:490px; 
-        margin: 17px 40px 18px 22px;   
+    .input-form-container{
+        Width:536px; 
+        margin: 17px 20px 18px 0;   
     }
 
-    .row-container{
-        Width:490px;
-        Height:590px;
-        background: #6C6C6C;
-        margin: 1px 10px 18px 22px;
+    .row-form-container{
+        margin: 1px 10px 18px 2px;
     }
 
     .input-container input{
@@ -172,65 +212,222 @@
     .review h1{
         font-size: 15px;
     }
+
+
+    .movie-formcard-content-container{
+        width: 536px;
+        height: 661px;
+        margin-top: 10px;        
+    }
+
+    .movie-formcard-image-container img{
+        width: 496px;
+        height: 311px;
+        margin: 20px;
+    }
+
+    .movie-formcard-title-container h2{
+        width: 264.44px;
+        height: 27px;
+        font-size: 20px;
+    }
+
+    .movie-formcard-year-container h4{
+        width: 264.44px;
+        height: 22px;
+    }
+
+    .movie-formcard-legenda-container h6{
+        width: 264.44px;
+        height: 19px;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .movie-formcard-description-container{
+        width: 496px;
+        height: 191px;
+        margin-left: 20px
+    }
+
+    .movie-formcard-description{
+        font-size: 16px;
+        margin: 13px 16px 13px 15px;
+    }
+
+
 }
 
 @media(min-width: 768px){
+
     .movie-title h1{
-        font-size: 1.7em;
-        margin: 17px 4px 18px 26px;
+        font-size: 1.5em;
+        margin: 17px 4px 18px 20px;
     }
 
     .review-container h2{
         font-size: 16px;
     }
 
-    .input-container{
-        Width:660px; 
-        margin: 17px 40px 18px 28px;   
+    .input-form-container{
+        Width:688px; 
+        margin: 17px 40px 18px 25px;   
     }
 
-    .row-container{
-        Width:659px;
-        margin: 1px 10px 18px 28px;
+    .row-form-container{
+        Width:688px;
+        margin: 1px 10px 18px 25px;
     }
 
-    .input-container input{
-        Width:627px;
-        font-size: 20px; 
+    .input-form-container input{
+        Width:608px;
+        font-size: 18px; 
+        margin: 1px 10px 18px 25px;
+    }
+
+    .review{
+        padding: 10px 0 0 5px;
+        margin: 5px 0 18px 0px;
+    }
+
+    .review-form-container{
+        Width:605px; 
+        margin: 1px 10px 18px 20px;
     }
 
     .review h1{
-        font-size: 16px;
+        font-size: 15px;
+    }
+
+
+    .movie-formcard-content-container{
+        width: 688px;
+        height: 870px;
+        margin: 30px 40px 40px 25px;        
+    }
+
+    .movie-formcard-image-container img{
+        width: 608px;
+        height: 382.48px;
+        margin: 40px 40px 15px 40px;
+    }
+
+    .movie-formcard-title-container h2{
+        width: 605px;
+        height: 49px;
+        font-size: 36px;
+        margin-left: 40px;
+    }
+
+    .movie-formcard-year-container h4{
+        width: 264.44px;
+        height: 33px;
+        font-size: 24px;
+        margin-left: 40px;
+    }
+
+    .movie-formcard-legenda-container h6{
+        width: 605px;
+        height: 33px;
+        font-size: 24px;
+        margin-left: 40px;
+    }
+
+    .movie-formcard-description-container{
+        width: 608px;
+        height: auto;
+        margin-left: 40px
+    }
+
+    .movie-formcard-description{
+        font-size: 21px;
+        margin: 13px 16px 13px 15px;
     }
 }
 
 @media(min-width: 992px){
     .movie-title h1{
-        font-size: 1.8em;
-        margin: 17px 4px 18px 25px;
+        font-size: 1.5em;
+        margin: 17px 4px 18px 20px;
     }
 
     .review-container h2{
         font-size: 16px;
     }
 
-    .input-container{
-        Width:895px; 
-        margin: 17px 40px 18px 28px;   
+    .input-form-container{
+        Width:912px; 
+        margin: 17px 40px 18px 25px;   
     }
 
-    .row-container{
-        Width:895px;
-        margin: 1px 10px 18px 28px;
+    .row-form-container{
+        Width:912px;
+        margin: 1px 10px 18px 25px;
     }
 
-    .input-container input{
-        Width:860px;
-        font-size: 24px; 
+    .input-form-container input{
+        Width:832px;
+        font-size: 18px; 
+        margin: 1px 10px 18px 25px;
     }
 
-    .review h1{
-        font-size: 15px;
+
+    .review-form-container{
+        Width:832px; 
+        margin: 1px 10px 18px 20px;
+    }
+
+
+    .review-name img{
+        margin: 10px 0 5px 20px;
+    }
+
+    .review-name h1{
+        margin: 8px 0 10px 10px;
+    }
+    
+    
+    .movie-formcard-content-container{
+        width: 912px;
+        height: 835px;
+        margin: 30px 40px 40px 25px;        
+    }
+
+    .movie-formcard-image-container img{
+        width: 608px;
+        height: 382.48px;
+        margin: 40px 152px 15px 152px;
+    }
+
+    .movie-formcard-title-container h2{
+        width: 605px;
+        height: 49px;
+        font-size: 36px;
+        margin-left: 40px;
+    }
+
+    .movie-formcard-year-container h4{
+        width: 264.44px;
+        height: 33px;
+        font-size: 24px;
+        margin-left: 40px;
+    }
+
+    .movie-formcard-legenda-container h6{
+        width: 605px;
+        height: 33px;
+        font-size: 24px;
+        margin-left: 40px;
+    }
+
+    .movie-formcard-description-container{
+        width: 832px;
+        margin-left: 40px
+    }
+
+    .movie-formcard-description{
+        font-size: 22.6px;
+        margin: 13px 16px 13px 15px;
     }
 }
 
@@ -244,111 +441,89 @@
         font-size: 16px;
     }
 
-    .review-container{
-        Width:1076px; 
-    }
-
-    .input-container{
+    .input-form-container{
         Width:1120px; 
-        margin: 17px 40px 18px 22px;   
+        margin: 17px 40px 18px 25px;   
     }
 
-    .row-container{
+    .row-form-container{
         Width:1120px;
-        margin: 1px 10px 18px 22px;
+        margin: 1px 10px 18px 25px;
     }
 
-    .input-container input{
-        Width:1087px;
+    .input-form-container input{
+        Width:1040px;
         font-size: 18px; 
+        margin: 1px 10px 18px 25px;
     }
 
-    .review{
-        padding: 10px 0 0 5px;
-        margin: 5px 0px 18px 0px;
+
+    .review-form-container{
+        Width:1040px; 
+        margin: 1px 10px 18px 20px;
     }
 
-    .review h1{
-        font-size: 15px;
+
+    .review-name img{
+        margin: 10px 0 5px 20px;
+    }
+
+    .review-name h1{
+        margin: 8px 0 10px 10px;
+    }
+    
+    
+    .movie-formcard-content-container{
+        width: 1120px;
+        height: 510px;
+        display: flex;
+        margin: 30px 40px 40px 25px;        
+    }
+
+    .movie-formcard-image-container img{
+        width: 500px;
+        height: 314.23px;
+        margin: 40px 40px 155.77px 40px;
+    }
+
+    .movie-formcard-title-container h2{
+        width: 500px;
+        height: 49px;
+        font-size: 36px;
+        margin: 40px;
+    }
+
+    .movie-formcard-year-container h4{
+        width: 264.44px;
+        height: 33px;
+        font-size: 24px;
+        margin: 40px;
+    }
+
+    .movie-formcard-legenda-container h6{
+        width: 500px;
+        height: 33px;
+        font-size: 24px;
+        margin: 40px;
+    }
+
+    .movie-formcard-description-container{
+        width: 500px;
+        margin: 40px
+    }
+
+    .movie-formcard-description{
+        font-size: 22.6px;
+        margin: 13px 16px 13px 15px;
     }
 }
 
 @media(min-width: 1400px){
-    .movie-title h1{
-        font-size: 2.5em;
-        margin: 17px 4px 18px 35px;
-    }
-
-    .review-container{
-        Width:1220px; 
-    }
-
-    .review-container h2{
-        font-size: 16px;
-    }
-
-    .input-container{
-        Width:1260px; 
-        margin: 17px 40px 18px 35px;   
-    }
-
-    .row-container{
-        Width:1260px;
-        margin: 1px 10px 18px 35px;
-    }
-
-    .input-container input{
-        Width:1230px;
-        font-size: 18px; 
-    }
-
-    .review{
-        padding: 10px 0 0 5px;
-        margin: 5px 0 18px 0px;
-    }
-
-    .review h1{
-        font-size: 15px;
-    }
+   
    
 }
 
 @media(min-width: 1550px){
-    .movie-title h1{
-        font-size: 2.5em;
-        margin: 17px 4px 18px 35px;
-    }
-
-    .review-container{
-        Width:1740px; 
-    }
-
-    .review-container h2{
-        font-size: 16px;
-    }
-
-    .input-container{
-        Width:1785px; 
-        margin: 17px 40px 18px 35px;   
-    }
-
-    .row-container{
-        Width:1785px;
-        margin: 1px 10px 18px 35px;
-    }
-
-    .input-container input{
-        Width:1750px;
-        font-size: 24px; 
-    }
-
-    .review{
-        padding: 10px 0 0 5px;
-        margin: 5px 0 18px 0px;
-    }
-
-    .review h1{
-        font-size: 15px;
-    }
+   
    
 }
